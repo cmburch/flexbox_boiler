@@ -1,0 +1,27 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.row{
+    display:flex;
+    flex-flow:column wrap;
+}
+
+
+.col{
+    flex: 1;
+    margin:.6em;
+    padding:.6em;
+    color:#FFF;
+    background-color:blue;
+    
+}
